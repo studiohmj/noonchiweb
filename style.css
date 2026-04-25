@@ -11,10 +11,10 @@ button { font-family: inherit; }
 ══════════════════════════════════════════════ */
 :root {
   /* Color */
-  --orange:       #FF7A2F;
-  --orange-dark:  #E8600E;
-  --orange-pale:  #FFF4EE;
-  --orange-pale2: #FFE8D6;
+  --orange:       #FF5500;
+  --orange-dark:  #E04800;
+  --orange-pale:  #FFF2EE;
+  --orange-pale2: #FFE0D6;
   --ink:          #1A1614;
   --body:         #3D3A38;
   --muted:        #7A746F;
