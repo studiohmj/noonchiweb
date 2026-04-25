@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>눈치코치 — 눈치 있게, 코치 받자</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ── NAV ────────────────────────────── -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#" class="logo-lockup">
+      <img src="logo-noonchi.png" alt="눈치코치" class="logo-img" />
+    </a>
+    <div class="nav-links">
+      <a href="#scenarios" class="nav-link">상황 유형</a>
+      <a href="#simulate"  class="nav-link">시뮬레이션</a>
+      <a href="#community" class="nav-link">후기</a>
+    </div>
+    <a href="#download" class="nav-cta">무료 시작</a>
+  </div>
+</nav>
+
+<!-- ── HERO ────────────────────────────── -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="badge">
+      <span class="badge-dot"></span>
+      당신을 위한 사회 예절 가이드
+    </div>
+    <h1 class="hero-title">
+      <span class="hero-emph">눈치</span><span class="hero-light"> 있게,</span><br />
+      <span class="hero-emph">코치</span><span class="hero-light"> 받자.</span>
+    </h1>
+    <p class="hero-sub">
+      다양한 사회적 상황들, 너무 어렵죠?<br />
+      장례식, 결혼식, 회식… 사소한 것들까지<br />
+      실제 데이터를 보면서 함께 익혀봐요!
+    </p>
+    <div class="hero-cta-row">
+      <a href="#simulate" class="btn-primary">시뮬레이션 보기</a>
+      <a href="#community" class="btn-ghost">사용 후기 보기</a>
+    </div>
+    <div class="hero-proof">
+      <div class="proof-faces">
+        <span class="face" style="background:#FFE8D6">🙋</span>
+        <span class="face" style="background:#D6E8FF">🤔</span>
+        <span class="face" style="background:#D6FFE8">😌</span>
+        <span class="face" style="background:#FFE8F6">🌙</span>
+      </div>
+      <p class="proof-label"><strong>4,173명</strong>이 이미 연습 중이에요</p>
+    </div>
+  </div>
+
+  <div class="hero-device">
+    <div class="device">
+      <div class="device-island"></div>
+      <div class="device-screen">
+        <div class="ds-appbar">
+          <div class="ds-logo">
+            <div class="ds-logo-mark"><span class="ds-logo-n">N</span></div>
+            <span class="ds-logo-name">눈치코치</span>
+          </div>
+        </div>
+        <div class="ds-label">오늘의 상황</div>
+        <div class="ds-card">
+          <span class="ds-tag">💬 직장</span>
+          <p class="ds-situation">팀장님이 단톡방에 '다들 수고했어요~'를 보냈다.</p>
+        </div>
+        <div class="ds-choice">😊 이모티콘으로 간단히 답장한다</div>
+        <div class="ds-choice active">✍️ 정중하게 텍스트로 감사 인사를 한다</div>
+        <div class="ds-stat">
+          <span class="ds-pct">68%</span>
+          <span class="ds-pct-label">가 같은 선택을 했어요</span>
+        </div>
+      </div>
+      <div class="device-bar"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SCENARIOS ────────────────────────────── -->
+<section class="section-alt" id="scenarios">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">다루는 상황들</p>
+      <h2 class="sec-title">처음이라 어색한<br />그 순간들</h2>
+      <p class="sec-sub">사회생활에서 누구나 한 번쯤 맞닥뜨리는 상황들.<br />모르면 난처하고, 알면 자신감이 달라져요.</p>
+    </div>
+    <div class="card-grid col-3">
+      <div class="s-card">
+        <div class="s-icon">🕯️</div>
+        <span class="s-tag">장례식</span>
+        <p class="s-desc">처음 가는 장례식, 어디서 절을 하고<br />뭐라고 말해야 할까?</p>
+      </div>
+      <div class="s-card">
+        <div class="s-icon">💍</div>
+        <span class="s-tag">결혼식</span>
+        <p class="s-desc">친한 친구 결혼식 축의금,<br />얼마가 적당한지 모르겠어.</p>
+      </div>
+      <div class="s-card">
+        <div class="s-icon">🍻</div>
+        <span class="s-tag">회식</span>
+        <p class="s-desc">팀장이 첫 잔을 권할 때,<br />어떻게 받는 게 예의일까?</p>
+      </div>
+      <div class="s-card">
+        <div class="s-icon">🤝</div>
+        <span class="s-tag">직장</span>
+        <p class="s-desc">처음 만나는 거래처 담당자,<br />명함은 어떻게 주고받아야 하지?</p>
+      </div>
+      <div class="s-card">
+        <div class="s-icon">🎊</div>
+        <span class="s-tag">경조사</span>
+        <p class="s-desc">선배가 승진했을 때,<br />어떻게 축하 인사를 전해야 자연스럽지?</p>
+      </div>
+      <div class="s-card">
+        <div class="s-icon">🏥</div>
+        <span class="s-tag">병문안</span>
+        <p class="s-desc">처음 병문안을 가는데,<br />무엇을 들고 가고 뭐라고 해야 하나?</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── APP PREVIEW ────────────────────────────── -->
+<section class="preview-section" id="preview">
+  <div class="container">
+    <div class="section-head center">
+      <p class="eyebrow">이렇게 작동해요</p>
+      <h2 class="sec-title">어플 하나로<br />이런 연습이 되네?</h2>
+    </div>
+
+    <div class="phones-stage">
+
+      <!-- Phone 1 — 홈 -->
+      <div class="phone-col side left">
+        <p class="phone-chip">🗂 상황 모아보기</p>
+        <div class="iphone">
+          <div class="iphone-top"><div class="iphone-island"></div></div>
+          <div class="iphone-screen">
+            <div class="app-bar">
+              <div class="app-bar-logo">
+                <div class="app-logo-mark"><span class="app-logo-n">N</span></div>
+                <span class="app-bar-title">눈치코치</span>
+              </div>
+            </div>
+            <div class="app-section-label">오늘의 상황 <span class="app-count">6</span></div>
+            <div class="app-list">
+              <div class="app-item active">
+                <span class="app-item-icon">🕯️</span>
+                <div class="app-item-body">
+                  <span class="app-item-tag">장례식</span>
+                  <span class="app-item-title">조문 순서를 모르겠다</span>
+                </div>
+                <span class="app-item-arr">›</span>
+              </div>
+              <div class="app-item">
+                <span class="app-item-icon">🍻</span>
+                <div class="app-item-body">
+                  <span class="app-item-tag">회식</span>
+                  <span class="app-item-title">술 권할 때 거절하는 법</span>
+                </div>
+                <span class="app-item-arr">›</span>
+              </div>
+              <div class="app-item">
+                <span class="app-item-icon">💍</span>
+                <div class="app-item-body">
+                  <span class="app-item-tag">결혼식</span>
+                  <span class="app-item-title">축의금 적정 금액</span>
+                </div>
+                <span class="app-item-arr">›</span>
+              </div>
+              <div class="app-item">
+                <span class="app-item-icon">🤝</span>
+                <div class="app-item-body">
+                  <span class="app-item-tag">직장</span>
+                  <span class="app-item-title">명함 주고받는 예절</span>
+                </div>
+                <span class="app-item-arr">›</span>
+              </div>
+            </div>
+          </div>
+          <div class="iphone-bar"></div>
+        </div>
+        <p class="phone-chip">📱 직관적인 홈 화면</p>
+      </div>
+
+      <!-- Phone 2 — 시뮬레이션 (center) -->
+      <div class="phone-col center">
+        <p class="phone-chip">⚡ 반응 선택</p>
+        <div class="iphone large">
+          <div class="iphone-top"><div class="iphone-island large"></div></div>
+          <div class="iphone-screen">
+            <div class="app-bar">
+              <span class="app-back">‹</span>
+              <span class="app-bar-title">상황 연습</span>
+              <span class="app-bar-right">2 / 6</span>
+            </div>
+            <div class="app-prog-wrap">
+              <div class="app-prog-fill" style="width:33%"></div>
+            </div>
+            <div class="app-situation">
+              <div class="app-sit-header">
+                <span class="app-sit-tag">🍻 회식 · 첫 회식 자리</span>
+                <span class="app-sit-participants">👥 1,247명 참여</span>
+              </div>
+              <p class="app-sit-text">팀장님이 첫 잔을 직접 따라주시겠다고 하셨다. 주변 동료들도 모두 지켜보고 있다.</p>
+              <p class="app-sit-hint">💡 이런 상황, 한 번쯤 겪어봤죠?</p>
+            </div>
+            <p class="app-q-label">나라면 어떻게 할 것 같아요?</p>
+            <div class="app-choices">
+              <div class="app-choice selected">
+                <span class="choice-dot"></span>
+                두 손으로 잔을 들고 "감사합니다" 하고 받는다
+              </div>
+              <div class="app-choice">
+                <span class="choice-dot"></span>
+                한 손으로 자연스럽게 잔을 받는다
+              </div>
+              <div class="app-choice">
+                <span class="choice-dot"></span>
+                처음엔 사양하고, 다시 권하실 때 받는다
+              </div>
+            </div>
+            <button class="app-submit">이걸로 골랐어요</button>
+          </div>
+          <div class="iphone-bar"></div>
+        </div>
+        <p class="phone-chip">🎯 세 가지 중에서 고르기</p>
+      </div>
+
+      <!-- Phone 3 — 결과 -->
+      <div class="phone-col side right">
+        <p class="phone-chip">📊 결과 확인</p>
+        <div class="iphone">
+          <div class="iphone-top"><div class="iphone-island"></div></div>
+          <div class="iphone-screen">
+            <div class="app-bar">
+              <span class="app-back">‹</span>
+              <span class="app-bar-title">결과 나왔어요</span>
+              <span></span>
+            </div>
+            <div class="app-ring-wrap">
+              <div class="app-ring">
+                <span class="app-ring-pct">78%</span>
+                <span class="app-ring-sub">가 선택</span>
+              </div>
+            </div>
+            <div class="app-bars">
+              <div class="app-bar-row">
+                <div class="app-bar-label"><span class="dot-win"></span>두 손으로 감사하게</div>
+                <div class="app-bar-track"><div class="app-bar-fill win" style="width:78%"></div></div>
+                <span class="app-bar-pct win">78%</span>
+              </div>
+              <div class="app-bar-row">
+                <div class="app-bar-label"><span class="dot-gray"></span>한 손으로 받기</div>
+                <div class="app-bar-track"><div class="app-bar-fill" style="width:15%"></div></div>
+                <span class="app-bar-pct">15%</span>
+              </div>
+              <div class="app-bar-row">
+                <div class="app-bar-label"><span class="dot-gray"></span>처음엔 사양하기</div>
+                <div class="app-bar-track"><div class="app-bar-fill" style="width:7%"></div></div>
+                <span class="app-bar-pct">7%</span>
+              </div>
+            </div>
+            <div class="app-insight">💡 어른이 따르실 때 두 손으로 받는 게 기본 예의예요</div>
+          </div>
+          <div class="iphone-bar"></div>
+        </div>
+        <p class="phone-chip">✨ 실제 사람들 평균</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── SIMULATION ────────────────────────────── -->
+<section class="sim-section" id="simulate">
+  <div class="container">
+    <div class="section-head center">
+      <p class="eyebrow">직접 해보는 연습</p>
+      <h2 class="sec-title">선택하고, 결과 보고,<br />그렇게 감각이 쌓여요</h2>
+      <p class="sec-sub">정답을 알려주는 게 아니에요.<br />실제 사람들의 선택과 그 결과를 보면서 스스로 판단하게 돼요.</p>
+    </div>
+
+    <div class="sim-flow">
+
+      <div class="sim-step">
+        <div class="sim-step-meta">
+          <span class="step-badge">01</span>
+          <span class="step-name">이런 상황이에요</span>
+        </div>
+        <div class="sim-card">
+          <span class="sim-tag">🍻 회식 · 신입사원 첫 회식</span>
+          <p class="sim-text">팀장님이 "내가 첫 잔 따라줄게" 하시며 술병을 들었다. 주변 사람들이 모두 지켜보고 있다.</p>
+        </div>
+      </div>
+
+      <div class="sim-divider">
+        <div class="sim-divider-line"></div>
+        <div class="sim-divider-dot"></div>
+        <div class="sim-divider-line"></div>
+      </div>
+
+      <div class="sim-step">
+        <div class="sim-step-meta">
+          <span class="step-badge">02</span>
+          <span class="step-name">나라면 어떻게 할 것 같아요?</span>
+        </div>
+        <div class="sim-card">
+          <div class="sim-options">
+            <div class="sim-option selected">
+              <span class="opt-marker">A</span>
+              <span>두 손으로 잔을 들고 "감사합니다" 하며 공손히 받는다.</span>
+            </div>
+            <div class="sim-option">
+              <span class="opt-marker">B</span>
+              <span>한 손으로 자연스럽게 잔을 받는다.</span>
+            </div>
+            <div class="sim-option">
+              <span class="opt-marker">C</span>
+              <span>"괜찮습니다" 하고 처음엔 사양한 뒤, 다시 권하실 때 받는다.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sim-divider">
+        <div class="sim-divider-line"></div>
+        <div class="sim-divider-dot"></div>
+        <div class="sim-divider-line"></div>
+      </div>
+
+      <div class="sim-step">
+        <div class="sim-step-meta">
+          <span class="step-badge">03</span>
+          <span class="step-name">다른 사람들은 어떻게 했고, 어떻게 됐을까요?</span>
+        </div>
+        <div class="sim-card result">
+          <div class="sim-results">
+            <div class="sim-result-row winner">
+              <div class="sim-result-left">
+                <span class="opt-marker sm">A</span>
+                <span class="sim-result-name">두 손으로 공손히 받기</span>
+                <span class="result-crown">👑 제일 많이 골랐어요</span>
+              </div>
+              <div class="sim-result-right">
+                <span class="result-pct">78%</span>
+                <div class="result-track"><div class="result-fill win" style="width:78%"></div></div>
+              </div>
+            </div>
+            <div class="sim-result-row">
+              <div class="sim-result-left">
+                <span class="opt-marker sm">B</span>
+                <span class="sim-result-name">한 손으로 받기</span>
+              </div>
+              <div class="sim-result-right">
+                <span class="result-pct muted">15%</span>
+                <div class="result-track"><div class="result-fill" style="width:15%"></div></div>
+              </div>
+            </div>
+            <div class="sim-result-row">
+              <div class="sim-result-left">
+                <span class="opt-marker sm">C</span>
+                <span class="sim-result-name">처음엔 사양하기</span>
+              </div>
+              <div class="sim-result-right">
+                <span class="result-pct muted">7%</span>
+                <div class="result-track"><div class="result-fill" style="width:7%"></div></div>
+              </div>
+            </div>
+          </div>
+          <p class="sim-insight">💡 A를 고른 사람 대부분이 <strong>팀장님에게 좋은 첫인상</strong>을 남겼다고 답했어요. 두 손으로 받는 작은 행동이 생각보다 많은 걸 말해줘요.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── COMMUNITY ────────────────────────────── -->
+<section class="community-section" id="community">
+  <div class="container">
+    <div class="section-head center">
+      <p class="eyebrow">커뮤니티 후기</p>
+      <h2 class="sec-title sec-title-sm">실제로 써본 사람들 이야기</h2>
+      <p class="sec-sub sec-sub-sm">첫 댓글은 AI가 자동으로 달아드려요. 무플 걱정 없이 경험을 나눠보세요.</p>
+    </div>
+    <div class="testimonial-grid">
+
+      <div class="testimonial-card">
+        <div class="t-header">
+          <div class="t-avatar" style="background:#FFE8D6">🐻</div>
+          <div class="t-meta">
+            <span class="t-nick">봄비내리는날</span>
+            <span class="t-tag">🕯️ 장례식</span>
+          </div>
+        </div>
+        <p class="t-text">처음 조문을 가서 순서를 몰라 당황했는데, 미리 연습하고 가니까 훨씬 침착하게 행동할 수 있었어요. 유가족 분들께 실례 없이 조문을 마칠 수 있었습니다.</p>
+        <span class="t-empathy">312명 공감</span>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="t-header">
+          <div class="t-avatar" style="background:#D6E8FF">🌙</div>
+          <div class="t-meta">
+            <span class="t-nick">잠수함타는사람</span>
+            <span class="t-tag">🍻 회식</span>
+          </div>
+        </div>
+        <p class="t-text">첫 회식에서 어떻게 행동해야 할지 몰라 여기서 미리 연습했어요. 술 따르는 법, 자리 배치, 인사 방식까지 확인하고 갔더니 팀장님이 예의 바르다고 하셨어요.</p>
+        <span class="t-empathy">241명 공감</span>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="t-header">
+          <div class="t-avatar" style="background:#E8FFD6">🌿</div>
+          <div class="t-meta">
+            <span class="t-nick">민트초코싫음</span>
+            <span class="t-tag">💍 결혼식</span>
+          </div>
+        </div>
+        <p class="t-text">친한 친구 결혼식 축의금을 얼마 내야 할지 진짜 몰랐는데, 비슷한 상황 데이터 보고 결정했어요. 괜히 혼자 고민하지 말고 여기서 확인하는 게 훨씬 나아요.</p>
+        <span class="t-empathy">187명 공감</span>
+      </div>
+
+    </div>
+    <div class="community-note">
+      <span>지금 4,173개의 실제 경험이 쌓여 있어요</span>
+      <a href="#download" class="btn-ghost sm">앱에서 더 보기</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA ────────────────────────────── -->
+<section class="cta" id="download">
+  <div class="cta-blob"></div>
+  <div class="container cta-inner">
+    <p class="cta-eyebrow">무료로 시작</p>
+    <h2 class="cta-title">한번 해보면<br />금방 느껴져요</h2>
+    <p class="cta-sub">첫 상황 하나만 골라보세요. 생각보다 재밌어요.</p>
+    <div class="store-btns">
+      <a href="#" class="store-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+        App Store
+      </a>
+      <a href="#" class="store-btn outline">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M3.18 23.76c.3.17.64.22.99.13l13.43-7.76-2.89-2.9-11.53 10.53zM.5 1.4C.19 1.74 0 2.27 0 2.96v18.08c0 .69.19 1.22.51 1.56l.08.08 10.12-10.12v-.24L.58 1.32.5 1.4zm18.95 9.25L16.6 9.24 13.7 6.35l2.91-2.9 2.83 1.63c.81.46.81 1.22 0 1.68l-2.84 1.63.85.85zM4.17.24L17.6 8l-2.89 2.9L3.18.24c.35-.2.74-.23.99.0z"/></svg>
+        Google Play
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ────────────────────────────── -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-logo-lockup">
+      <img src="logo-noonchi.png" alt="눈치코치" class="footer-logo-img" />
+    </div>
+    <p class="footer-copy">© 2026 눈치코치. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
